@@ -1,8 +1,13 @@
+<script setup>
+import SideBar from "@/components/SideBar.vue";
+</script>
+
 <template>
-  <div class="flex w-full h-screen relative bg-darkgray">
+  <side-bar></side-bar>
+  <!-- <div class="flex w-full h-screen relative bg-darkgray">
     <a class="m-auto content-center text-white">
       <h1>contact me</h1>
     </a>
     <a class="m-auto content-center text-white">github</a>
-  </div>
+  </div> -->
 </template>
