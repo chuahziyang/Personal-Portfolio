@@ -1,11 +1,17 @@
 <template>
-  <div
-    class="flex fixed top-0 left-0 h-screen w-16 m-0 flex-col bg-gray-400 text-white shadow"
+  <nav
+    class="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-800"
   >
-    <i class="icon">A</i>
-    <i class="icon">B</i>
-    <i class="icon">C</i>
-    <i class="icon">D</i>
-    <i class="icon">E</i>
-  </div>
+    <div class="container flex flex-wrap justify-between items-center mx-auto">
+      <a class="icon" v-for="link in links" :key="link" :href="link.link"
+        ><i>
+          {{ link.name }}
+        </i>
+      </a>
+    </div>
+  </nav>
 </template>
+
+<script setup>
+import links from "@/data/links";
+</script>

@@ -1,9 +1,11 @@
 <script setup>
 import SideBar from "@/components/SideBar.vue";
+import FooterBar from "@/components/FooterBar.vue";
 </script>
 
 <template>
   <side-bar></side-bar>
+  <footer-bar></footer-bar>
   <!-- <div class="flex w-full h-screen relative bg-darkgray">
     <a class="m-auto content-center text-white">
       <h1>contact me</h1>
