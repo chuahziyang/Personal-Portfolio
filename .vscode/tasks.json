@@ -1,0 +1,14 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "npm",
+      "script": "dev",
+      "path": "/",
+      "group": "build",
+      "problemMatcher": [],
+      "label": "npm: build - client",
+      "detail": "npm run dev"
+    }
+  ]
+}
