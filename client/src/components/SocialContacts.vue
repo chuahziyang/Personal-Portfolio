@@ -2,6 +2,7 @@
   <div class="flex flex-row">
     <h1>asdasd</h1>
     <fa icon="coffee"></fa>
+    <fa icon="fa-brands fa-youtube" />
     <h1>asdasd</h1>
     <!-- <h1 v-for="icon in icons" :key="icon">
       {{ icon.name }}
