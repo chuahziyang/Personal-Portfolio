@@ -1,8 +1,11 @@
 <template>
   <div class="flex flex-row">
-    <h1 v-for="icon in icons" :key="icon">
+    <h1>asdasd</h1>
+    <fa icon="coffee"></fa>
+    <h1>asdasd</h1>
+    <!-- <h1 v-for="icon in icons" :key="icon">
       {{ icon.name }}
-    </h1>
+    </h1> -->
   </div>
 </template>
 
