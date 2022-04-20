@@ -1,9 +1,7 @@
 <template>
-  <side-bar></side-bar>
-  <footer-bar></footer-bar>
+  <view-wrapper> </view-wrapper>
 </template>
 
 <script setup lang="ts">
-import FooterBar from "@/components/FooterBar.vue";
-import SideBar from "@/components/SideBar.vue";
+import ViewWrapper from "@/components/ViewWrapper.vue";
 </script>
