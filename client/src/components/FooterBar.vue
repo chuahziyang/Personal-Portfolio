@@ -7,10 +7,8 @@ const year = new Date().getFullYear();
 <template>
   <div>
     <social-contacts></social-contacts>
-    <div
-      className="mt-2 flex flex-col items-center py-8 font-light dark:text-white lg:py-8"
-    >
-      <span className="mt-4 text-xs font-light lg:mt-8">
+    <div className="flex flex-coL items-center font-light dark:text-white">
+      <span className="pb-8 mt-4 text-xs font-light lg:mt-8">
         {{ year }}
         <span>&#169;</span>
         Chuah Zi Yang

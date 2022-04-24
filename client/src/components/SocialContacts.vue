@@ -1,12 +1,19 @@
 <template>
   <div class="flex justify-center">
-    <fa
+    <a
       class="mx-2"
       v-for="icon in icons"
       :key="icon"
-      :icon="[`${icon.icon}`, `${icon.iconlink}`]"
-      size="xl"
-    ></fa>
+      target="_blank"
+      :href="icon.link"
+    >
+      <fa
+        :icon="[`${icon.icon}`, `${icon.iconlink}`]"
+        size="xl"
+        target="_blank"
+      >
+      </fa>
+    </a>
     <!-- <h1 v-for="icon in icons" :key="icon">
       {{ icon.name }}
     </h1> -->
