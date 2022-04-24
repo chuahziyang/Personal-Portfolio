@@ -1,30 +1,34 @@
 interface socialicon {
   name: string;
   link: string;
-  iconname: icon;
-}
-
-enum icon {
-  github,
-  linkedin,
-  instagram,
+  iconlink: string;
+  icon: string;
 }
 
 const icons: socialicon[] = [
   {
+    name: "Youtube",
+    link: "",
+    iconlink: "youtube",
+    icon: "fab",
+  },
+  {
     name: "Github",
     link: "",
-    iconname: icon.github,
+    iconlink: "github",
+    icon: "fab",
   },
   {
     name: "Linkedin",
     link: "",
-    iconname: icon.linkedin,
+    iconlink: "linkedin",
+    icon: "fab",
   },
   {
     name: "Instagram",
     link: "",
-    iconname: icon.instagram,
+    iconlink: "instagram",
+    icon: "fab",
   },
 ];
 

@@ -1,9 +1,12 @@
 <template>
-  <div class="flex flex-row">
-    <h1>asdasd</h1>
-    <fa icon="coffee"></fa>
-    <fa :icon="['fab', 'youtube']"></fa>
-    <h1>asdasd</h1>
+  <div class="flex justify-center">
+    <fa
+      class="mx-2"
+      v-for="icon in icons"
+      :key="icon"
+      :icon="[`${icon.icon}`, `${icon.iconlink}`]"
+      size="xl"
+    ></fa>
     <!-- <h1 v-for="icon in icons" :key="icon">
       {{ icon.name }}
     </h1> -->
