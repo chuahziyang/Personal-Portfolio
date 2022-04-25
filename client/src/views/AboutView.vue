@@ -1,11 +1,13 @@
 <script setup>
-import SideBar from "@/components/SideBar.vue";
-import FooterBar from "@/components/FooterBar.vue";
+import ViewWrapper from "@/components/ViewWrapper.vue";
 </script>
 
 <template>
-  <side-bar></side-bar>
-  <footer-bar></footer-bar>
+  <view-wrapper>
+    <div class="grow">
+      <h1>asdas</h1>
+    </div>
+  </view-wrapper>
   <!-- <div class="flex w-full h-screen relative bg-darkgray">
     <a class="m-auto content-center text-white">
       <h1>contact me</h1>
