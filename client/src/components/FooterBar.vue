@@ -7,7 +7,7 @@ const year = new Date().getFullYear();
 <template>
   <div>
     <social-contacts></social-contacts>
-    <div className="flex flex-coL items-center font-light dark:text-white">
+    <div className="flex flex-coL justify-center font-light dark:text-white">
       <span className="pb-8 mt-4 text-xs font-light lg:mt-8">
         {{ year }}
         <span>&#169;</span>
