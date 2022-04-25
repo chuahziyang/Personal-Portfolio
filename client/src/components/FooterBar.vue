@@ -8,7 +8,7 @@ const year = new Date().getFullYear();
   <div>
     <social-contacts></social-contacts>
     <div className="flex flex-coL justify-center font-light dark:text-white">
-      <span className="pb-8 mt-4 text-xs font-light lg:mt-8">
+      <span className="pb-2 mt-4 text-xs font-light ">
         {{ year }}
         <span>&#169;</span>
         Chuah Zi Yang
