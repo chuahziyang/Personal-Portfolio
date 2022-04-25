@@ -4,7 +4,7 @@
   >
     <div class="container flex flex-wrap justify-between items-center mx-auto">
       <a class="icon" v-for="link in links" :key="link" :href="link.link"
-        ><i>
+        ><i class="not-italic block font-medium">
           {{ link.name }}
         </i>
       </a>
