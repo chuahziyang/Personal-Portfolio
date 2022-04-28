@@ -2,8 +2,8 @@
   <view-wrapper>
     <h1>Projects</h1>
     <hr class="border-grey mb-3" />
-    <div class="grow grid grid-cols-3">
-      <div class="border-2" v-for="project in projects" :key="project">
+    <div class="grow grid grid-cols-2">
+      <div class="border-2 h-80" v-for="project in projects" :key="project">
         <project-panel :name="project.name"></project-panel>
       </div>
     </div>
