@@ -20,9 +20,14 @@ console.log(props);
       <h6 class="text-2xl font-semibold text-gray-800">
         Lorem ipsum dolor sit
       </h6>
-      <a :href="linktoinfo" target="_">
-        <h6 class="text-2xl font-semibold text-blue-700">learn more</h6>
-      </a>
+      <div class="flex flex-row justify-between">
+        <a :href="linktoinfo" target="_">
+          <h6 class="text-2xl font-semibold text-blue-700">learn more</h6>
+        </a>
+        <a :href="linktoproject" target="_">
+          <h6 class="text-2xl font-semibold text-blue-700">visit project</h6>
+        </a>
+      </div>
     </div>
   </div>
 </template>
