@@ -86,4 +86,4 @@ const projects: project[] = [
   },
 ];
 
-export default projects;
+export { projects, project };

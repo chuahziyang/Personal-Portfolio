@@ -12,6 +12,6 @@
 
 <script setup lang="ts">
 import ViewWrapper from "@/components/ViewWrapper.vue";
-import projects from "@/data/projects";
+import { projects } from "@/data/projects";
 import ProjectPanel from "@/components/ProjectPanel.vue";
 </script>
