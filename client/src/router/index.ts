@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory, RouteRecordRaw } from "vue-router";
 import HomeView from "../views/HomeView.vue";
 import ProjectView from "../views/ProjectView.vue";
+import EmobView from "../views/EmobView.vue";
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -12,6 +13,11 @@ const routes: Array<RouteRecordRaw> = [
     path: "/projects",
     name: "projects",
     component: ProjectView,
+  },
+  {
+    path: "/projects/emob",
+    name: "emob",
+    component: EmobView,
   },
   {
     path: "/about",
