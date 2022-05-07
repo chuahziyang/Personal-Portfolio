@@ -4,7 +4,9 @@
       class="flex h-screen flex-col bg-white dark:bg-thegray justify-between"
     >
       <side-bar></side-bar>
-      <slot></slot>
+      <div class="mx-20">
+        <slot></slot>
+      </div>
       <footer-bar></footer-bar>
     </div>
   </div>
