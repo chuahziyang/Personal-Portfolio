@@ -4,7 +4,7 @@
     <hr class="border-grey mb-3" />
     <div class="grow grid grid-cols-2">
       <div class="border-2" v-for="project in projects" :key="project">
-        <project-panel class="h-80" :name="project.name"></project-panel>
+        <project-panel class="h-80" :project="project"></project-panel>
       </div>
     </div>
   </view-wrapper>
