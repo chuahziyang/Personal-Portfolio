@@ -1,12 +1,12 @@
 <script setup lang="ts">
+import { stack } from "@/data/projects";
 //defineprops
 interface Props {
-  stack: string[];
+  stack: stack[];
 }
 
 //eslint-disable-next-line
 const props = defineProps<Props>();
-console.log(props.stack);
 </script>
 
 <template>
@@ -14,9 +14,10 @@ console.log(props.stack);
     <span
       v-for="stack in props.stack"
       :key="stack"
-      class="mr-2 mb-2 rounded-sm px-2 py-1 text-xs font-medium text-white bg-blue-600"
+      class="mr-2 mb-2 rounded-sm px-2 py-1 text-xs font-medium text-white"
+      :class="`bg-${stack.colour}-600`"
     >
-      {{ stack }}
+      {{ stack.name }}
     </span>
   </div>
 </template>

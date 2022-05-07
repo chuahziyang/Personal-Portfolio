@@ -7,7 +7,7 @@ interface project {
 }
 
 interface stack {
-  stack: string;
+  name: string;
   colour: string;
 }
 
@@ -19,19 +19,19 @@ const projects: project[] = [
     image: "",
     stack: [
       {
-        stack: "React",
+        name: "React",
         colour: "blue",
       },
       {
-        stack: "Vue.js",
+        name: "Vue.js",
         colour: "green",
       },
       {
-        stack: "TailwindCSS",
+        name: "TailwindCSS",
         colour: "blue",
       },
       {
-        stack: "Express",
+        name: "Express",
         colour: "gray",
       },
     ],
@@ -43,19 +43,19 @@ const projects: project[] = [
     image: "",
     stack: [
       {
-        stack: "React",
+        name: "React",
         colour: "blue",
       },
       {
-        stack: "Vue.js",
+        name: "Vue.js",
         colour: "green",
       },
       {
-        stack: "TailwindCSS",
+        name: "TailwindCSS",
         colour: "blue",
       },
       {
-        stack: "Express",
+        name: "Express",
         colour: "gray",
       },
     ],
@@ -67,19 +67,19 @@ const projects: project[] = [
     image: "",
     stack: [
       {
-        stack: "React",
+        name: "React",
         colour: "blue",
       },
       {
-        stack: "Vue.js",
+        name: "Vue.js",
         colour: "green",
       },
       {
-        stack: "TailwindCSS",
+        name: "TailwindCSS",
         colour: "blue",
       },
       {
-        stack: "Express",
+        name: "Express",
         colour: "gray",
       },
     ],
@@ -91,19 +91,19 @@ const projects: project[] = [
     image: "",
     stack: [
       {
-        stack: "React",
+        name: "React",
         colour: "blue",
       },
       {
-        stack: "Vue.js",
+        name: "Vue.js",
         colour: "green",
       },
       {
-        stack: "TailwindCSS",
+        name: "TailwindCSS",
         colour: "blue",
       },
       {
-        stack: "Express",
+        name: "Express",
         colour: "gray",
       },
     ],
@@ -115,19 +115,19 @@ const projects: project[] = [
     image: "",
     stack: [
       {
-        stack: "React",
+        name: "React",
         colour: "blue",
       },
       {
-        stack: "Vue.js",
+        name: "Vue.js",
         colour: "green",
       },
       {
-        stack: "TailwindCSS",
+        name: "TailwindCSS",
         colour: "blue",
       },
       {
-        stack: "Express",
+        name: "Express",
         colour: "gray",
       },
     ],
@@ -139,19 +139,19 @@ const projects: project[] = [
     image: "",
     stack: [
       {
-        stack: "React",
+        name: "React",
         colour: "blue",
       },
       {
-        stack: "Vue.js",
+        name: "Vue.js",
         colour: "green",
       },
       {
-        stack: "TailwindCSS",
+        name: "TailwindCSS",
         colour: "blue",
       },
       {
-        stack: "Express",
+        name: "Express",
         colour: "gray",
       },
     ],
@@ -163,19 +163,19 @@ const projects: project[] = [
     image: "",
     stack: [
       {
-        stack: "React",
+        name: "React",
         colour: "blue",
       },
       {
-        stack: "Vue.js",
+        name: "Vue.js",
         colour: "green",
       },
       {
-        stack: "TailwindCSS",
+        name: "TailwindCSS",
         colour: "blue",
       },
       {
-        stack: "Express",
+        name: "Express",
         colour: "gray",
       },
     ],
@@ -187,19 +187,19 @@ const projects: project[] = [
     image: "",
     stack: [
       {
-        stack: "React",
+        name: "React",
         colour: "blue",
       },
       {
-        stack: "Vue.js",
+        name: "Vue.js",
         colour: "green",
       },
       {
-        stack: "TailwindCSS",
+        name: "TailwindCSS",
         colour: "blue",
       },
       {
-        stack: "Express",
+        name: "Express",
         colour: "gray",
       },
     ],
@@ -211,19 +211,19 @@ const projects: project[] = [
     image: "",
     stack: [
       {
-        stack: "React",
+        name: "React",
         colour: "blue",
       },
       {
-        stack: "Vue.js",
+        name: "Vue.js",
         colour: "green",
       },
       {
-        stack: "TailwindCSS",
+        name: "TailwindCSS",
         colour: "blue",
       },
       {
-        stack: "Express",
+        name: "Express",
         colour: "gray",
       },
     ],
@@ -235,19 +235,19 @@ const projects: project[] = [
     image: "",
     stack: [
       {
-        stack: "React",
+        name: "React",
         colour: "blue",
       },
       {
-        stack: "Vue.js",
+        name: "Vue.js",
         colour: "green",
       },
       {
-        stack: "TailwindCSS",
+        name: "TailwindCSS",
         colour: "blue",
       },
       {
-        stack: "Express",
+        name: "Express",
         colour: "gray",
       },
     ],
@@ -259,19 +259,19 @@ const projects: project[] = [
     image: "",
     stack: [
       {
-        stack: "React",
+        name: "React",
         colour: "blue",
       },
       {
-        stack: "Vue.js",
+        name: "Vue.js",
         colour: "green",
       },
       {
-        stack: "TailwindCSS",
+        name: "TailwindCSS",
         colour: "blue",
       },
       {
-        stack: "Express",
+        name: "Express",
         colour: "gray",
       },
     ],
@@ -283,19 +283,19 @@ const projects: project[] = [
     image: "",
     stack: [
       {
-        stack: "React",
+        name: "React",
         colour: "blue",
       },
       {
-        stack: "Vue.js",
+        name: "Vue.js",
         colour: "green",
       },
       {
-        stack: "TailwindCSS",
+        name: "TailwindCSS",
         colour: "blue",
       },
       {
-        stack: "Express",
+        name: "Express",
         colour: "gray",
       },
     ],
@@ -307,23 +307,23 @@ const projects: project[] = [
     image: "",
     stack: [
       {
-        stack: "React",
+        name: "React",
         colour: "blue",
       },
       {
-        stack: "Vue.js",
+        name: "Vue.js",
         colour: "green",
       },
       {
-        stack: "TailwindCSS",
+        name: "TailwindCSS",
         colour: "blue",
       },
       {
-        stack: "Express",
+        name: "Express",
         colour: "gray",
       },
     ],
   },
 ];
 
-export { projects, project };
+export { projects, project, stack };
