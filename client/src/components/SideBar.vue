@@ -1,15 +1,20 @@
 <template>
-  <nav
-    class="bg-white border-gray-200 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-800"
-  >
-    <div class="container flex flex-wrap justify-between items-center mx-auto">
-      <a class="icon" v-for="link in links" :key="link" :href="link.link"
-        ><i class="not-italic block font-medium">
+  <header className="flex items-center justify-end py-8">
+    <div className="flex items-center text-base leading-5">
+      <div className="hidden sm:block">
+        <a
+          v-for="link in links"
+          :key="link"
+          :href="link.link"
+          className="p-1 font-medium text-gray-900 dark:text-gray-100 sm:p-4"
+        >
           {{ link.name }}
-        </i>
-      </a>
+        </a>
+      </div>
+      <ThemeSwitch />
+      <MobileNav />
     </div>
-  </nav>
+  </header>
 </template>
 
 <script setup>
