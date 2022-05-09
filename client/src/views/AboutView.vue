@@ -1,13 +1,9 @@
 <script setup>
 import ViewWrapper from "@/components/ViewWrapper.vue";
 import StackBar from "@/components/StackBar.vue";
+import { skills } from "@/data/skills";
 
-const stack = [
-  { name: "Vue.js", colour: "blue" },
-  { name: "Prisma", colour: "blue" },
-  { name: "VueJS", colour: "green" },
-  { name: "Postgres", colour: "blue" },
-];
+console.log(skills);
 </script>
 
 <template>
@@ -27,6 +23,6 @@ const stack = [
       collaboration with the Office of the Chief Information Officer (OCIO).
     </h4>
     <h2>Skills</h2>
-    <stack-bar :stack="stack"></stack-bar>
+    <stack-bar :stack="skills"></stack-bar>
   </view-wrapper>
 </template>
