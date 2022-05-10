@@ -10,13 +10,13 @@
         >
           {{ link.name }}
         </a>
+        <dark-mode-toggle />
       </div>
-      <ThemeSwitch />
-      <MobileNav />
     </div>
   </header>
 </template>
 
 <script setup>
 import links from "@/data/links";
+import DarkModeToggle from "@/components/DarkModeToggle";
 </script>

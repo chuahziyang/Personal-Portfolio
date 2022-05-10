@@ -5,7 +5,10 @@
       "type": "npm",
       "script": "dev",
       "path": "/",
-      "group": "build",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
       "problemMatcher": [],
       "label": "npm: build - client",
       "detail": "npm run dev"

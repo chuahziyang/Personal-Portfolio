@@ -3,7 +3,9 @@
     <div
       class="flex h-screen flex-col bg-white dark:bg-thegray justify-between"
     >
-      <side-bar></side-bar>
+      <div class="mx-20">
+        <side-bar></side-bar>
+      </div>
       <div class="mx-20 grow">
         <slot></slot>
       </div>
