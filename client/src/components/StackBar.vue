@@ -7,7 +7,12 @@ interface Props {
 
 function getColor(stack: stack) {
   // return "bg-green-500";
-  return `bg-${stack.colour}-500`;
+  switch (stack.colour) {
+    case "blue":
+      return "bg-blue-500";
+    case "green":
+      return "bg-green-500";
+  }
 }
 
 //eslint-disable-next-line
