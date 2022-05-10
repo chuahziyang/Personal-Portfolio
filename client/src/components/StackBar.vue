@@ -5,6 +5,11 @@ interface Props {
   stack: stack[];
 }
 
+function getColor(stack: stack) {
+  // return "bg-green-500";
+  return `bg-${stack.colour}-500`;
+}
+
 //eslint-disable-next-line
 const props = defineProps<Props>();
 </script>
@@ -15,7 +20,7 @@ const props = defineProps<Props>();
       v-for="stack in props.stack"
       :key="stack"
       class="mr-2 mb-2 rounded-sm px-2 py-1 text-xs font-medium text-white"
-      :class="`bg-${stack.colour}-600`"
+      v-bind:class="getColor(stack)"
     >
       {{ stack.name }}
     </span>
