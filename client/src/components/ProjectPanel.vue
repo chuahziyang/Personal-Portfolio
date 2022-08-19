@@ -13,9 +13,9 @@ console.log(props);
 </script>
 
 <template>
-  <div class="flex-col flex bg-red-800">
-    <div class="bg-green-100 basis-3/5">{{ image }}</div>
-    <div class="bg-blue-100 flex flex-col px-6 py-2 justify-between basis-2/5">
+  <div class="flex-col flex">
+    <div class="basis-3/5">{{ image }}</div>
+    <div class="flex flex-col pl-6 pr-3 py-2 justify-between basis-2/5">
       <h5 class="text-2xl font-bold leading-8 tracking-tight">
         {{ name }}
       </h5>
@@ -34,11 +34,9 @@ console.log(props);
           </h6>
         </a>
         <a :href="linktoproject" target="_">
-          <h6
-            class="text-xl font-medium leading-6 text-blue-500 hover:text-blue-600 dark:hover:text-blue-400"
-          >
-            visit project
-          </h6>
+          <span>
+            <fa :icon="[`fa`, `link`]" color="blue"> </fa>
+          </span>
         </a>
       </div>
     </div>
