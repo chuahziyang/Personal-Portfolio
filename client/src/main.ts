@@ -4,6 +4,7 @@ import "./registerServiceWorker";
 import router from "./router";
 import store from "./store";
 import "./index.css";
+import VueRoughNotation from "vue-rough-notation";
 
 /* import the fontawesome core */
 import { library } from "@fortawesome/fontawesome-svg-core";
@@ -20,5 +21,6 @@ library.add(fas, fab);
 createApp(App)
   .use(store)
   .use(router)
+  .use(VueRoughNotation)
   .component("fa", FontAwesomeIcon)
   .mount("#app");

@@ -14,11 +14,10 @@ import ViewWrapper from "@/components/ViewWrapper.vue";
           Read more
           <a className="ml-2 mr-2 font-normal text-black" href="/about">
             <RoughNotation
-              show
+              :is-show="true"
               type="highlight"
-              animationDelay="{250}"
-              animationDuration="{2000}"
-              color="{aboutColor}"
+              color="#F5E1FF"
+              :animationDuration="2500"
             >
               about me
             </RoughNotation>
@@ -26,11 +25,10 @@ import ViewWrapper from "@/components/ViewWrapper.vue";
           or
           <a className="ml-2 font-normal text-black" href="/contact">
             <RoughNotation
-              show
+              :is-show="true"
               type="highlight"
-              animationDelay="{250}"
-              animationDuration="{2000}"
-              color="{contactColor}"
+              color="#CAF0F8"
+              :animationDuration="2500"
             >
               contact me
             </RoughNotation>
