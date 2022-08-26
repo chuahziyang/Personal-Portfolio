@@ -2,8 +2,12 @@
 import ViewWrapper from "@/components/ViewWrapper.vue";
 import StackBar from "@/components/StackBar.vue";
 import { skills } from "@/data/skills";
-
+import resumelink from "@/data/resume";
 console.log(skills);
+
+function goToResume() {
+  this.$router.push("/resume");
+}
 </script>
 
 <template>
@@ -23,6 +27,19 @@ console.log(skills);
       collaboration with the Office of the Chief Information Officer (OCIO).
     </h4>
     <h2>Skills</h2>
+    <div class="my-10">
+      <a :href="resumelink" class="my-10">
+        <RoughNotation
+          :is-show="true"
+          strokeWidth="3"
+          type="box"
+          color="#F5E1FF"
+          :animationDuration="2500"
+        >
+          Resume
+        </RoughNotation>
+      </a>
+    </div>
     <stack-bar :stack="skills"></stack-bar>
   </view-wrapper>
 </template>
