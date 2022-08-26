@@ -3,11 +3,6 @@ import ViewWrapper from "@/components/ViewWrapper.vue";
 import StackBar from "@/components/StackBar.vue";
 import { skills } from "@/data/skills";
 import resumelink from "@/data/resume";
-console.log(skills);
-
-function goToResume() {
-  this.$router.push("/resume");
-}
 </script>
 
 <template>
