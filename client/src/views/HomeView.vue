@@ -9,8 +9,10 @@ import ViewWrapper from "@/components/ViewWrapper.vue";
         <h5 class="text-3xl font-bold dark:text-white lg:text-5xl">
           Hi, I'm Zi Yang
         </h5>
-        <h4 class="my-2 text-lg lg:my-4 lg:text-2xl">Software Engineer</h4>
-        <p className="font-light lg:text-xl">
+        <h4 class="my-2 text-lg lg:my-4 lg:text-2xl dark:text-white">
+          Software Engineer
+        </h4>
+        <p className="font-light lg:text-xl dark:text-white">
           Read more
           <a className="ml-2 mr-2 font-normal text-black" href="/about">
             <RoughNotation
