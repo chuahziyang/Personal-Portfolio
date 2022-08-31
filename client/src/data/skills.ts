@@ -6,7 +6,7 @@ const skills: stack[] = [
     colour: "green",
   },
   {
-    name: "Prisma",
+    name: "TailwindCSS",
     colour: "blue",
   },
   {
@@ -14,72 +14,28 @@ const skills: stack[] = [
     colour: "blue",
   },
   {
-    name: "Prisma",
+    name: "Nuxt 3",
+    colour: "green",
+  },
+  {
+    name: "Express",
+    colour: "black",
+  },
+  {
+    name: "React",
     colour: "blue",
   },
   {
-    name: "Prisma",
+    name: "Next.js",
+    colour: "black",
+  },
+  {
+    name: "Telegraf",
     colour: "blue",
   },
   {
-    name: "Prisma",
-    colour: "blue",
-  },
-  {
-    name: "Prisma",
-    colour: "blue",
-  },
-  {
-    name: "Prisma",
-    colour: "blue",
-  },
-  {
-    name: "Prisma",
-    colour: "blue",
-  },
-  {
-    name: "Prisma",
-    colour: "blue",
-  },
-  {
-    name: "Prisma",
-    colour: "blue",
-  },
-  {
-    name: "Prisma",
-    colour: "blue",
-  },
-  {
-    name: "Prisma",
-    colour: "blue",
-  },
-  {
-    name: "Prisma",
-    colour: "blue",
-  },
-  {
-    name: "Prisma",
-    colour: "blue",
-  },
-  {
-    name: "Prisma",
-    colour: "blue",
-  },
-  {
-    name: "Prisma",
-    colour: "blue",
-  },
-  {
-    name: "Prisma",
-    colour: "blue",
-  },
-  {
-    name: "Prisma",
-    colour: "blue",
-  },
-  {
-    name: "Prisma",
-    colour: "blue",
+    name: "Firebase",
+    colour: "orange",
   },
 ];
 

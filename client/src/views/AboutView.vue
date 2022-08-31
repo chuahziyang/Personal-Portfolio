@@ -21,10 +21,9 @@ import resumelink from "@/data/resume";
       Smithsonian Institution as a consulting Full Stack Engineer in
       collaboration with the Office of the Chief Information Officer (OCIO).
     </h4>
-    <h2>Skills</h2>
     <div class="my-10">
       <a :href="resumelink" class="my-10">
-        <RoughNotation
+        <RoughNotation 
           :is-show="true"
           strokeWidth="3"
           type="box"
@@ -35,6 +34,7 @@ import resumelink from "@/data/resume";
         </RoughNotation>
       </a>
     </div>
+    <h2>Technologies I've worked with</h2>
     <stack-bar :stack="skills"></stack-bar>
   </view-wrapper>
 </template>
