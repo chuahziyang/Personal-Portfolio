@@ -1,24 +1,23 @@
 {
-  "name": "Personal-Portfolio",
-  "version": "1.0.0",
-  "description": "Hi this is my personal portfolio for web developer positions",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "concurrently \"cd client && npm run serve\" \"cd server\""
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/chuahziyang/Personal-Portfolio.git"
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^5.3.2",
+    "nuxt": "3.0.0-rc.8"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/chuahziyang/Personal-Portfolio/issues"
-  },
-  "homepage": "https://github.com/chuahziyang/Personal-Portfolio#readme",
   "dependencies": {
-    "concurrently": "^7.1.0"
+    "@fortawesome/fontawesome-svg-core": "^6.2.0",
+    "@fortawesome/free-brands-svg-icons": "^6.2.0",
+    "@fortawesome/free-solid-svg-icons": "^6.2.0",
+    "@fortawesome/vue-fontawesome": "^3.0.0-5",
+    "@nuxtjs/fontawesome": "^1.1.2",
+    "@tailwindcss/line-clamp": "^0.4.0",
+    "@vueuse/core": "^9.1.1",
+    "vue-rough-notation": "^1.0.4"
   }
 }
