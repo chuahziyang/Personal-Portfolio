@@ -11,6 +11,7 @@
         :icon="[`${icon.icon}`, `${icon.iconlink}`]"
         size="xl"
         target="_blank"
+        :color="isDarkMode ? 'white' : 'black'"
       >
       </fa>
     </a>
@@ -22,4 +23,6 @@
 
 <script setup lang="ts">
 import icons from "@/data/iconlist";
+
+const isDarkMode = useDarkMode();
 </script>

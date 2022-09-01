@@ -4,6 +4,13 @@ import { useDark, useToggle } from "@vueuse/core";
 const isDark = useDark();
 const toggleDark = useToggle(isDark);
 
+const isDarkValue = useState("darkValue", () => isDark.value);
+
+watchEffect(() => {
+  console.log(isDark.value);
+  isDarkValue.value = isDark.value;
+});
+
 //define props
 </script>
 
