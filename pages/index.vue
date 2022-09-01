@@ -17,7 +17,7 @@
               :is-show="true"
               type="highlight"
               color="#F5E1FF"
-              :animationDuration="2500"
+              :animationDuration="3000"
             >
               about me
             </RoughNotation>
@@ -28,7 +28,7 @@
               :is-show="true"
               type="highlight"
               color="#CAF0F8"
-              :animationDuration="2500"
+              :animationDuration="3000"
             >
               contact me
             </RoughNotation>
