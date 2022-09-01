@@ -20,7 +20,7 @@ import resumelink from "@/data/resume";
       collaboration with the Office of the Chief Information Officer (OCIO).
     </h4>
     <div class="my-10">
-      <a :href="resumelink" class="my-10">
+      <a :href="resumelink" class="my-10 dark:text-gray-200">
         <RoughNotation
           :is-show="true"
           strokeWidth="3"

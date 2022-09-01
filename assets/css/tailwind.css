@@ -10,12 +10,12 @@
 
 @layer base {
   h1 {
-    @apply mb-8 text-4xl font-black leading-relaxed text-gray-800 md:text-5xl;
+    @apply mb-8 text-4xl font-black leading-relaxed text-gray-800 dark:text-gray-200 md:text-5xl;
   }
   h2 {
-    @apply my-6 text-3xl font-semibold text-gray-800;
+    @apply my-6 text-3xl font-semibold text-gray-800 dark:text-gray-200;
   }
   h3 {
-    @apply my-4 text-xl  font-medium text-gray-800;
+    @apply my-4 text-xl  font-medium text-gray-800 dark:text-gray-200;
   }
 }
