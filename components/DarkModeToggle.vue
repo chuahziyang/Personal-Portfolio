@@ -7,7 +7,6 @@ const toggleDark = useToggle(isDark);
 const isDarkValue = useState("darkValue", () => isDark.value);
 
 watchEffect(() => {
-  console.log(isDark.value);
   isDarkValue.value = isDark.value;
 });
 
