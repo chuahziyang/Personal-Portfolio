@@ -1,9 +1,7 @@
-<script setup>
-function test() {
-  console.log("asdasdasd");
-}
+<script setup lang="ts">
+const project = useProject("mtrac");
 </script>
 
 <template>
-  <button @click="test">asdasdasd</button>
+  {{ project }}
 </template>
