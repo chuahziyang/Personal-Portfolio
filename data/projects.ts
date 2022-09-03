@@ -35,7 +35,7 @@ const projects: project[] = [
       },
       {
         name: "Express",
-        colour: "gray",
+        colour: "black",
       },
     ],
   },

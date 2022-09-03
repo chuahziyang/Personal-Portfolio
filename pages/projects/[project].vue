@@ -10,8 +10,15 @@ const { name, linktoproject, linktoinfo, image, stack, description } = project;
 <template>
   <view-wrapper>
     <div class="grow">
-      <h1>{{ name }}</h1>
-      <h4>{{ description }}</h4>
+      <div class="flex flex-row items-end">
+        <h1>{{ name }}</h1>
+        <a :href="linktoproject" target="_">
+          <span>
+            <fa class="mb-8" :icon="[`fa`, `link`]" color="blue"> </fa>
+          </span>
+        </a>
+      </div>
+      <h3>{{ description }}</h3>
       <h2>Stack</h2>
       <stack-bar :stack="stack"></stack-bar>
     </div>
