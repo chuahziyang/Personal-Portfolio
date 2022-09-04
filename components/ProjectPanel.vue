@@ -26,7 +26,7 @@ console.log(props);
         non. Dolorum!
       </h6>
       <div class="flex flex-row justify-between">
-        <a :href="linktoinfo" target="_">
+        <a :href="`projects/${linktoinfo}`" target="_">
           <h6
             class="text-xl font-medium leading-6 text-blue-500 hover:text-blue-600 dark:hover:text-blue-400"
           >

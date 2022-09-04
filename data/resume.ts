@@ -1,3 +1,3 @@
 const resumelink =
-  "https://docs.google.com/document/d/1Ag3GEtq8XgZViRhRKsf_nq1kGYsGDR9P/edit?usp=sharing&ouid=109120511381851187422&rtpof=true&sd=true";
+  "https://drive.google.com/file/d/1LOM5TScf4t5U3JmiRDah2LEmJ-Ak2NVf/view?usp=sharing";
 export default resumelink;

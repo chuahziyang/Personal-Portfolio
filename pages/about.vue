@@ -7,9 +7,7 @@ import resumelink from "@/data/resume";
   <view-wrapper>
     <h1>About</h1>
     <hr class="border-grey mb-3" />
-    <h4
-      class="prose mb-3 max-w-none text-gray-500 line-clamp-2 dark:text-gray-400"
-    >
+    <h4 class="prose mb-3 max-w-none text-gray-500 dark:text-gray-400">
       A software engineer who values learning and growing with people, teams,
       and technologies. Experienced at writing code in a high-paced environment.
       Presently, I am working as a Senior Software Engineer at Curebase where I
@@ -20,10 +18,10 @@ import resumelink from "@/data/resume";
       collaboration with the Office of the Chief Information Officer (OCIO).
     </h4>
     <div class="my-10">
-      <a :href="resumelink" class="my-10 dark:text-gray-200">
+      <a :href="resumelink" target="_" class="my-10 dark:text-gray-200">
         <RoughNotation
           :is-show="true"
-          strokeWidth="3"
+          :strokeWidth="3"
           type="box"
           color="#F5E1FF"
           :animationDuration="2500"
