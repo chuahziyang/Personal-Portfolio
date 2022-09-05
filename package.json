@@ -18,6 +18,8 @@
     "@nuxtjs/fontawesome": "^1.1.2",
     "@tailwindcss/line-clamp": "^0.4.0",
     "@vueuse/core": "^9.1.1",
+    "dotenv": "^16.0.2",
+    "mailslurp-client": "^15.13.3",
     "vue-rough-notation": "^1.0.4"
   }
 }
