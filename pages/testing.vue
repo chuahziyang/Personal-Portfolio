@@ -1,7 +1,5 @@
-<script setup lang="ts">
-const project = useProject("mtrac");
-</script>
+<script setup lang="ts"></script>
 
 <template>
-  {{ project }}
+  <view-wrapper> asdasd </view-wrapper>
 </template>
