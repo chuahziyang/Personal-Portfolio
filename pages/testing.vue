@@ -1,22 +1,8 @@
-<script setup lang="ts">
-const runtimeConfig = useRuntimeConfig();
-
-const { email, slurpApi } = runtimeConfig.public;
-</script>
+<script setup lang="ts"></script>
 
 <template>
-  <view-wrapper
-    ><button
-      @click="
-        useContact({
-          content: 'asdasdasd',
-          name: 'asdasd',
-          subject: 'Testing',
-          company: 'testetsdf',
-        })
-      "
-    >
-      asdasdasdas
-    </button></view-wrapper
-  >
+  <div>
+    <top-banner></top-banner>
+    <view-wrapper></view-wrapper>
+  </div>
 </template>
