@@ -5,7 +5,7 @@ const { email, slurpApi } = runtimeConfig.public;
 </script>
 
 <template>
-  <view-wrapper {{email}} {{slurpApi}}
+  <view-wrapper
     ><button
       @click="
         useContact({
