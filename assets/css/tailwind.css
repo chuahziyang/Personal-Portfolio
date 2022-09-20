@@ -6,6 +6,12 @@
   .icon {
     @apply block py-2 pr-4 pl-3 text-gray-700;
   }
+  .field {
+    @apply mt-1 h-8 block w-full dark:bg-gray-600 rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm;
+  }
+  .label {
+    @apply block text-sm font-medium text-gray-700 dark:text-gray-200;
+  }
 }
 
 @layer base {
