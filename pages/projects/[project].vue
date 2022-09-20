@@ -18,7 +18,7 @@ const { name, linktoproject, linktoinfo, image, stack, description } = project;
           </span>
         </a>
       </div>
-      <h3>{{ description }}</h3>
+      <content-doc></content-doc>
       <h2>Stack</h2>
       <stack-bar :stack="stack"></stack-bar>
     </div>
