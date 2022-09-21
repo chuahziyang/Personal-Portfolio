@@ -15,7 +15,7 @@ Some text in the article.
 
 ::image-carousell
 ---
-links: ["emob-1","emob-2"]
+links: ["emob-1","emob-2","emob-3"]
 ---
 
 <!-- <ImageCarousell :links="['emob-1','emob-2','emob-3']"></ImageCarousell> -->
