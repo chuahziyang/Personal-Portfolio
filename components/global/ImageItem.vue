@@ -8,11 +8,11 @@ import { filename } from "pathe/utils";
 const props = defineProps({
   srcimg: {
     type: String,
-    required: true,
+    default: "emob-1",
   },
   alt: {
     type: String,
-    required: true,
+    default: "emob-1",
   },
 });
 

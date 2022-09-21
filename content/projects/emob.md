@@ -12,4 +12,10 @@
 
 Some text in the article.
 
-<ImageCarousell :links="['emob-1','emob-2','emob-3']"></ImageCarousell>
+
+::image-carousell
+---
+links: ["emob-1","emob-2"]
+---
+
+<!-- <ImageCarousell :links="['emob-1','emob-2','emob-3']"></ImageCarousell> -->
