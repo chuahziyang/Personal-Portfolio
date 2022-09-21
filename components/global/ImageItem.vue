@@ -1,35 +1,23 @@
 <template>
-  <img src="~/assets/emob-1.jpg" />
+  <img :src="images[srcimg]" :alt="alt" />
 </template>
 
-<script>
-export default {
-  //declare props for the 'srcimg' and 'alt' of the image
-  props: {
-    srcimg: {
-      type: String,
-      required: true,
-    },
-    alt: {
-      type: String,
-      required: true,
-    },
+<script setup>
+import { filename } from "pathe/utils";
+
+const props = defineProps({
+  srcimg: {
+    type: String,
+    required: true,
   },
-  methods: {
-    /* function to get and return the final url to our processed image
-        using the require function */
-    getImg() {
-      try {
-        // place the '~/' before 'assets/'
-        const image = require(`~/assets/${this.srcimg}`);
-        console.log(image);
-        return image;
-      } catch (err) {
-        console.warn(err);
-        // return null if any error
-        return null;
-      }
-    },
+  alt: {
+    type: String,
+    required: true,
   },
-};
+});
+
+const glob = import.meta.glob("~/assets/*.jpg", { eager: true });
+const images = Object.fromEntries(
+  Object.entries(glob).map(([key, value]) => [filename(key), value.default])
+);
 </script>
