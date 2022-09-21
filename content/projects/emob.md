@@ -9,3 +9,7 @@
 
 - Project was pushed out to the entire Singapore Army, and currently serves 20k transport operators
 - Over 200k MTRAC’s currently recorded.
+
+Some text in the article.
+
+<ImageItem srcimg="emob-1.jpg" alt="An image in my article" />
