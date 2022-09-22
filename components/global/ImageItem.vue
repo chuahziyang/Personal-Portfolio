@@ -16,7 +16,7 @@ const props = defineProps({
   },
 });
 
-const glob = import.meta.glob("~/assets/*.jpg", { eager: true });
+const glob = import.meta.glob("~/assets/*/*.jpg", { eager: true });
 const images = Object.fromEntries(
   Object.entries(glob).map(([key, value]) => [filename(key), value.default])
 );
