@@ -8,6 +8,7 @@ interface Contact {
 }
 
 export const useContact = async (contact: Contact) => {
+  return true;
   try {
     const { content, name, company, email: senderemail } = contact;
 

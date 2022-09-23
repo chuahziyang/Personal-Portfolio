@@ -1,9 +1,17 @@
 <script setup lang="ts">
 import { projects } from "@/data/projects";
 import { Field, Form, ErrorMessage } from "vee-validate";
+import * as yup from "yup";
 
 const isSubmitted = ref(false);
 const isSuccess = ref(false);
+
+const schema = yup.object({
+  name: yup.string().required(),
+  email: yup.string().required().email(),
+  comment: yup.string().required(),
+  // company
+});
 
 async function test(values) {
   alert(JSON.stringify(values));
@@ -30,7 +38,7 @@ function required(value) {
     <top-banner></top-banner>
     <view-wrapper>
       <div class="mt-5 md:col-span-2 md:mt-0">
-        <Form @submit="test">
+        <Form :validation-schema="schema" @submit="test">
           <div class="overflow-hidden shadow sm:rounded-md">
             <div class="bg-white dark:bg-thegray px-4 py-5 sm:p-6">
               <div v-if="isSubmitted">
@@ -45,12 +53,7 @@ function required(value) {
               <div class="grid grid-cols-6 gap-6">
                 <div class="col-span-6 sm:col-span-3">
                   <label for="first-name" class="label">Name</label>
-                  <Field
-                    :rules="required"
-                    class="field"
-                    type="text"
-                    name="name"
-                  />
+                  <Field class="field" type="text" name="name" />
                   <ErrorMessage class="error" name="name" />
                 </div>
                 <div class="col-span-6 sm:col-span-3">
@@ -60,12 +63,7 @@ function required(value) {
                 </div>
                 <div class="col-span-6">
                   <label for="email-address" class="label">Email address</label>
-                  <Field
-                    :rules="required"
-                    class="field"
-                    type="text"
-                    name="email"
-                  />
+                  <Field class="field" type="text" name="email" />
                 </div>
                 <ErrorMessage class="error" name="email" />
                 <div class="col-span-6">
@@ -74,7 +72,6 @@ function required(value) {
                   >
                   <div class="mt-1">
                     <Field
-                      :rules="required"
                       name="comment"
                       as="textarea"
                       rows="4"
