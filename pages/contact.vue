@@ -2,8 +2,20 @@
 import { projects } from "@/data/projects";
 import { Field, Form, ErrorMessage } from "vee-validate";
 
-function test(values) {
-  console.log(values);
+async function test(values) {
+  alert(JSON.stringify(values));
+  const { name, company, email, comment } = values;
+
+  const success = await useContact({
+    content: comment,
+    name,
+    email,
+    company,
+  });
+}
+
+function required(value) {
+  return value == undefined || value == "" ? "required" : true;
 }
 </script>
 
@@ -24,25 +36,39 @@ function test(values) {
               <div class="grid grid-cols-6 gap-6">
                 <div class="col-span-6 sm:col-span-3">
                   <label for="first-name" class="label">Name</label>
-                  <Field class="field" type="text" name="name" />
+                  <Field
+                    :rules="required"
+                    class="field"
+                    type="text"
+                    name="name"
+                  />
+                  <ErrorMessage class="error" name="name" />
                 </div>
                 <div class="col-span-6 sm:col-span-3">
                   <label for="company" class="label">Company *</label>
-                  <Field class="field" type="text" name="last-name" />
+                  <Field class="field" type="text" name="company" />
+                  <ErrorMessage class="error" name="company" />
                 </div>
                 <div class="col-span-6">
                   <label for="email-address" class="label">Email address</label>
-                  <Field class="field" type="text" name="email" />
+                  <Field
+                    :rules="required"
+                    class="field"
+                    type="text"
+                    name="email"
+                  />
                 </div>
+                <ErrorMessage class="error" name="email" />
                 <div class="col-span-6">
                   <label for="comment" class="label"
                     >Anything you want to tell me?</label
                   >
                   <div class="mt-1">
                     <Field
+                      :rules="required"
+                      name="comment"
                       as="textarea"
                       rows="4"
-                      name="comment"
                       id="comment"
                       class="dark:bg-gray-600 shadow-sm focus:ring-indigo-500 focus:border-indigo-500 block w-full sm:text-sm border-gray-300 rounded-md"
                     />

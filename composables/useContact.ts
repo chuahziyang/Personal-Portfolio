@@ -4,7 +4,7 @@ interface Contact {
   content: string;
   name: string;
   company?: string;
-  subject: string;
+  email: string;
 }
 
 export const useContact = async (contact: Contact) => {
@@ -20,7 +20,7 @@ export const useContact = async (contact: Contact) => {
   const inbox = await mailslurp.createInbox();
   const options = {
     to: [email],
-    subject: contact.subject,
+    subject: "asdasd",
     body: contact.name,
   };
 

@@ -12,6 +12,9 @@
   .label {
     @apply block text-sm font-medium text-gray-700 dark:text-gray-200;
   }
+  .error {
+    @apply block text-red-700 font-medium;
+  }
 }
 
 @layer base {
