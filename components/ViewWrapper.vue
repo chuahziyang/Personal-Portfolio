@@ -6,7 +6,7 @@
       <div class="mx-20">
         <side-bar></side-bar>
       </div>
-      <div class="mx-auto grow min-w-xl max-w-3xl">
+      <div class="mx-auto grow min-w-xl max-w-3xl w-full">
         <slot></slot>
       </div>
       <footer-bar></footer-bar>

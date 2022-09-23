@@ -19,8 +19,6 @@ const { name, linktoproject, linktoinfo, image, stack, description } = project;
         </a>
       </div>
       <content-doc></content-doc>
-      <h2>Stack</h2>
-      <stack-bar :stack="stack"></stack-bar>
     </div>
   </view-wrapper>
 </template>
