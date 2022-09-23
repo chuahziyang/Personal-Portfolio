@@ -8,6 +8,7 @@ interface Contact {
 }
 
 export const useContact = async (contact: Contact) => {
+  return true;
   const runtimeConfig = useRuntimeConfig();
   const { email, slurpApi } = runtimeConfig.public;
 

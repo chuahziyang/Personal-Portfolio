@@ -2,6 +2,9 @@
 import { projects } from "@/data/projects";
 import { Field, Form, ErrorMessage } from "vee-validate";
 
+const isSubmitted = ref(false);
+const isSuccess = ref(false);
+
 async function test(values) {
   alert(JSON.stringify(values));
   const { name, company, email, comment } = values;
@@ -12,6 +15,9 @@ async function test(values) {
     email,
     company,
   });
+
+  isSubmitted.value = true;
+  isSuccess.value = success;
 }
 
 function required(value) {
