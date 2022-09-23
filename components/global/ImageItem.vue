@@ -1,5 +1,5 @@
 <template>
-  <img :src="images[srcimg]" :alt="alt" />
+  <img class="object-contain h-[160]" :src="images[srcimg]" :alt="alt" />
 </template>
 
 <script setup>
