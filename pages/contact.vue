@@ -8,7 +8,6 @@ const isSuccess = ref(false);
 async function test(values) {
   alert(JSON.stringify(values));
   const { name, company, email, comment } = values;
-
   const success = await useContact({
     content: comment,
     name,
@@ -21,6 +20,7 @@ async function test(values) {
 }
 
 function required(value) {
+  return true;
   return value == undefined || value == "" ? "required" : true;
 }
 </script>
@@ -33,6 +33,9 @@ function required(value) {
         <Form @submit="test">
           <div class="overflow-hidden shadow sm:rounded-md">
             <div class="bg-white dark:bg-thegray px-4 py-5 sm:p-6">
+              <div v-if="isSubmitted">
+                <success-bar :success="isSuccess"></success-bar>
+              </div>
               <h1>Contact Me</h1>
               <hr class="border-grey mb-3" />
               <h4 class="mb-8">
