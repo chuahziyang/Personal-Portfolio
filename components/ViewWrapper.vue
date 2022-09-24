@@ -1,7 +1,7 @@
 <template>
-  <div :class="getmode()">
+  <div>
     <div
-      class="flex h-screen flex-col bg-white dark:bg-thegray justify-between"
+      class="flex h-full min-h-screen flex-col bg-white dark:bg-thegray justify-between"
     >
       <div class="mx-20">
         <side-bar></side-bar>
