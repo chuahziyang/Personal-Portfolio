@@ -2,8 +2,8 @@
 
 <template>
   <view-wrapper>
-    <div class="grid items-center w-full h-full">
-      <div>
+    <div class="flex justify-center items-center">
+      <div class="my-auto w-full">
         <h5 class="text-3xl font-bold dark:text-white lg:text-5xl">
           Hi, I'm Zi Yang
         </h5>
