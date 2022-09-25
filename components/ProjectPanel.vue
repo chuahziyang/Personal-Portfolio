@@ -16,7 +16,7 @@ console.log(props);
   <div class="flex-col flex">
     <div class="basis-3/5">{{ image }}</div>
     <div class="flex flex-col pl-6 pr-3 py-2 justify-between basis-2/5">
-      <h5 class="text-2xl font-bold leading-8 tracking-tight">
+      <h5 class="dark:text-white text-2xl font-bold leading-8 tracking-tight">
         {{ name }}
       </h5>
       <h6 class="max-w-none text-gray-500 line-clamp-2 dark:text-gray-400">

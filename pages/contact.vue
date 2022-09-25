@@ -63,11 +63,11 @@ function required(value) {
               <div class="col-span-6">
                 <label for="email-address" class="label">Email address</label>
                 <Field class="field" type="text" name="email" />
+                <ErrorMessage class="error" name="email" />
               </div>
-              <ErrorMessage class="error" name="email" />
               <div class="col-span-6">
                 <label for="comment" class="label"
-                  >Anything you want to tell me?</label
+                  >What can I do for you?</label
                 >
                 <div class="mt-1">
                   <Field
@@ -77,6 +77,7 @@ function required(value) {
                     id="comment"
                     class="dark:bg-gray-600 shadow-sm focus:ring-indigo-500 focus:border-indigo-500 block w-full sm:text-sm border-gray-300 rounded-md"
                   />
+                  <ErrorMessage class="error" name="comment" />
                 </div>
               </div>
             </div>
