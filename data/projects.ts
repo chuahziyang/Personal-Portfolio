@@ -92,11 +92,11 @@ const projects: project[] = [
     ],
   },
   {
-    name: "EMOB+",
+    name: "Bibo Bot",
     linktoproject: "https://emob.ternary.digital",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    linktoinfo: "emob",
+      "Bibo Bot is a Telegram Bot Created as an extension of the Bibo App to create on-demand reports.",
+    linktoinfo: "bibo",
     image: "",
     stack: [
       {
@@ -118,219 +118,11 @@ const projects: project[] = [
     ],
   },
   {
-    name: "EMOB+",
+    name: "Ippt App",
     linktoproject: "https://emob.ternary.digital",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    linktoinfo: "emob",
-    image: "",
-    stack: [
-      {
-        name: "React",
-        colour: "blue",
-      },
-      {
-        name: "Vue.js",
-        colour: "green",
-      },
-      {
-        name: "TailwindCSS",
-        colour: "blue",
-      },
-      {
-        name: "Express",
-        colour: "gray",
-      },
-    ],
-  },
-  {
-    name: "EMOB+",
-    linktoproject: "https://emob.ternary.digital",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    linktoinfo: "/emob",
-    image: "",
-    stack: [
-      {
-        name: "React",
-        colour: "blue",
-      },
-      {
-        name: "Vue.js",
-        colour: "green",
-      },
-      {
-        name: "TailwindCSS",
-        colour: "blue",
-      },
-      {
-        name: "Express",
-        colour: "gray",
-      },
-    ],
-  },
-  {
-    name: "EMOB+",
-    linktoproject: "https://emob.ternary.digital",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    linktoinfo: "/emob",
-    image: "",
-    stack: [
-      {
-        name: "React",
-        colour: "blue",
-      },
-      {
-        name: "Vue.js",
-        colour: "green",
-      },
-      {
-        name: "TailwindCSS",
-        colour: "blue",
-      },
-      {
-        name: "Express",
-        colour: "gray",
-      },
-    ],
-  },
-  {
-    name: "EMOB+",
-    linktoproject: "https://emob.ternary.digital",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    linktoinfo: "/emob",
-    image: "",
-    stack: [
-      {
-        name: "React",
-        colour: "blue",
-      },
-      {
-        name: "Vue.js",
-        colour: "green",
-      },
-      {
-        name: "TailwindCSS",
-        colour: "blue",
-      },
-      {
-        name: "Express",
-        colour: "gray",
-      },
-    ],
-  },
-  {
-    name: "EMOB+",
-    linktoproject: "https://emob.ternary.digital",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    linktoinfo: "/emob",
-    image: "",
-    stack: [
-      {
-        name: "React",
-        colour: "blue",
-      },
-      {
-        name: "Vue.js",
-        colour: "green",
-      },
-      {
-        name: "TailwindCSS",
-        colour: "blue",
-      },
-      {
-        name: "Express",
-        colour: "gray",
-      },
-    ],
-  },
-  {
-    name: "EMOB+",
-    linktoproject: "https://emob.ternary.digital",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    linktoinfo: "/emob",
-    image: "",
-    stack: [
-      {
-        name: "React",
-        colour: "blue",
-      },
-      {
-        name: "Vue.js",
-        colour: "green",
-      },
-      {
-        name: "TailwindCSS",
-        colour: "blue",
-      },
-      {
-        name: "Express",
-        colour: "gray",
-      },
-    ],
-  },
-  {
-    name: "EMOB+",
-    linktoproject: "https://emob.ternary.digital",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    linktoinfo: "/emob",
-    image: "",
-    stack: [
-      {
-        name: "React",
-        colour: "blue",
-      },
-      {
-        name: "Vue.js",
-        colour: "green",
-      },
-      {
-        name: "TailwindCSS",
-        colour: "blue",
-      },
-      {
-        name: "Express",
-        colour: "gray",
-      },
-    ],
-  },
-  {
-    name: "EMOB+",
-    linktoproject: "https://emob.ternary.digital",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    linktoinfo: "/emob",
-    image: "",
-    stack: [
-      {
-        name: "React",
-        colour: "blue",
-      },
-      {
-        name: "Vue.js",
-        colour: "green",
-      },
-      {
-        name: "TailwindCSS",
-        colour: "blue",
-      },
-      {
-        name: "Express",
-        colour: "gray",
-      },
-    ],
-  },
-  {
-    name: "EMOB+",
-    linktoproject: "https://emob.ternary.digital",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-    linktoinfo: "/emob",
+      "An application created to streamline the process of recording IPPT results digitally.",
+    linktoinfo: "bibo",
     image: "",
     stack: [
       {

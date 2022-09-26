@@ -16,8 +16,8 @@ import resumelink from "@/data/resume";
           digitalisation effort in my NS journey. In the 2 years I was in
           Projects Team, I had the opportunity to work on army wide projects,
           such as the MTRAC+ platform, where we currently serve 20k Transport
-          Operators(Drivers) in their day to day operations. I am an independent
-          learner, who self-taught web development.
+          Operators(Drivers) in their day to day operations. I am a self-taught
+          web developer, ect..
         </h4>
         <div class="my-10">
           <a :href="resumelink" target="_" class="my-10 dark:text-gray-200">
@@ -34,7 +34,7 @@ import resumelink from "@/data/resume";
         </div>
         <h2>Languages</h2>
         <stack-bar :stack="languages"></stack-bar>
-        <h2>Technologies I've worked with</h2>
+        <h2>Skills</h2>
         <stack-bar :stack="skills"></stack-bar>
       </div>
     </view-wrapper>
