@@ -1,10 +1,22 @@
-### MTRAC+ is a system made to digitise the process of signing MTRAC+ forms.
+### Bibo-App app is an app to streamline the proccess of 
+
+
+## Stack
+::stack-bar
+---
+stack: [
+    {name: "Vue.Js",colour: "green",},
+    {name: "Vuetify",colour: "blue",},
+    {name: "Firestore",colour: "orange",},
+    {name: "Heroku",colour: "orange",}]
+---
+::
 
 ## Features
+
 ## Project Impact
 
-- Project was pushed out to the entire Singapore Army, and currently serves 20k transport operators
-- Over 200k MTRAC’s currently recorded.
+- Project has been used from Dec 2021 to track the daily parade state of about 300 servicemen.
 
 ::image-carousell
 ---

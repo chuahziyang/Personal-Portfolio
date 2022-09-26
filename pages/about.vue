@@ -10,16 +10,14 @@ import resumelink from "@/data/resume";
       <div>
         <h1>About</h1>
         <hr class="border-grey mb-3" />
-        <h4 class="prose mb-3 max-w-none text-gray-500 dark:text-gray-400">
-          A software engineer who values learning and growing with people,
-          teams, and technologies. Experienced at writing code in a high-paced
-          environment. Presently, I am working as a Senior Software Engineer at
-          Curebase where I am helping to build a decentralized clinical trial
-          platform while scaling infrastructure with a focus on security, HIPAA,
-          and GDPR compliance. Previously I've worked with the Digitization
-          Program Office (DPO) at the Smithsonian Institution as a consulting
-          Full Stack Engineer in collaboration with the Office of the Chief
-          Information Officer (OCIO).
+        <h4 class="">
+          Hi! I'm an aspiring web developer with 2 years of web development
+          experience. I worked as the head of NSFC Projects Team, an SAF
+          digitalisation effort in my NS journey. In the 2 years I was in
+          Projects Team, I had the opportunity to work on army wide projects,
+          such as the MTRAC+ platform, where we currently serve 20k Transport
+          Operators(Drivers) in their day to day operations. We have currently
+          200k MTRAC's recorded. I am a quick and independent learner,
         </h4>
         <div class="my-10">
           <a :href="resumelink" target="_" class="my-10 dark:text-gray-200">

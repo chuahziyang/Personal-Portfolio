@@ -7,7 +7,7 @@ interface Props {
 }
 
 const props = defineProps<Props>();
-const { name, linktoinfo, linktoproject, image } = props.project;
+const { name, linktoinfo, linktoproject, image, description } = props.project;
 
 console.log(props);
 </script>
@@ -20,10 +20,7 @@ console.log(props);
         {{ name }}
       </h5>
       <h6 class="max-w-none text-gray-500 line-clamp-2 dark:text-gray-400">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex quae at
-        porro odio voluptas saepe omnis adipisci modi eveniet dignissimos
-        aliquid necessitatibus architecto explicabo quo deserunt et, laboriosam
-        non. Dolorum!
+        {{ description }}
       </h6>
       <div class="flex flex-row justify-between">
         <a :href="`projects/${linktoinfo}`" target="_">
