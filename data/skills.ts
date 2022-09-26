@@ -1,9 +1,32 @@
 import { stack } from "./projects";
 
+const languages: stack[] = [
+  {
+    name: "Javascript/Typescript",
+    colour: "blue",
+  },
+  {
+    name: "Python",
+    colour: "orange",
+  },
+];
+
 const skills: stack[] = [
   {
     name: "Vue.js",
     colour: "green",
+  },
+  {
+    name: "Nuxt 3",
+    colour: "green",
+  },
+  {
+    name: "React",
+    colour: "blue",
+  },
+  {
+    name: "Next.js",
+    colour: "black",
   },
   {
     name: "TailwindCSS",
@@ -14,19 +37,7 @@ const skills: stack[] = [
     colour: "blue",
   },
   {
-    name: "Nuxt 3",
-    colour: "green",
-  },
-  {
     name: "Express",
-    colour: "black",
-  },
-  {
-    name: "React",
-    colour: "blue",
-  },
-  {
-    name: "Next.js",
     colour: "black",
   },
   {
@@ -39,4 +50,4 @@ const skills: stack[] = [
   },
 ];
 
-export { skills };
+export { skills, languages };
