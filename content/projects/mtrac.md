@@ -1,4 +1,5 @@
-### MTRAC+ is an all in one platform for Transport Operators to manage their Driving Currency, fill MTRAC+ Forms, and allow Commanders to counter-sign MTRAC+ Forms. System is currently rolled out to all Transport Operators across the Army, with plans to integrate the platform with RSAF in the future. System is hosted on an AWS EC2 Infrastructure.
+
+### MTRAC+ is an all in one platform built for Transport Operators (Drivers). Platform will allow TO's and Commanders to manage administrative procedures directly on the platform.
 
 ## Stack
 ::stack-bar
@@ -14,11 +15,56 @@ stack: [
 ---
 ::
 
+
 ## Features
-- Digital MTRAC+ Forms for Drivers to Sign before each movement
-- Counter-Signing link for Commanders to approve each movement.
-- User Dashbord for Admins to easily
-- Driving Currency System that confirms that TOs have completed their currency in the last 2 weeks before driving
+::feature-list
+---
+actions: [
+  {
+    title: "Digital MTRAC Forms",
+    href: "#",
+    iconForeground: "text-teal-700",
+    iconBackground: "bg-teal-50",
+    description: "Digital MTRAC+ Forms to be filled in before each movement. Risk for the movement will be calculated and recorded."
+  },
+  {
+    title: "Counter-Signing",
+    href: "#",
+    iconForeground: "text-purple-700",
+    iconBackground: "bg-purple-50",
+    description: "Counter-Signing link will be generated after MTRAC+ Form is completed. Commanders will have to approve the movement via the Counter-Sign Link within 24 Hours."
+  },
+  {
+    title: "Driving Currency",
+    href: "#",
+    iconForeground: "text-sky-700",
+    iconBackground: "bg-sky-50",
+    description: "Drivers will have to renew their driving currency every 2 weeks by completing a JIT Test on the MTRAC+ Platform. "
+  },
+  {
+    title: "Offline Mode",
+    href: "#",
+    iconForeground: "text-yellow-700",
+    iconBackground: "bg-yellow-50",
+    description: "Offline mode allows users to queue a form submission while disconnected from the internet. The app will automatically submit the form when the user reconnects to internet."
+  },
+]
+---
+::
+  <!-- {
+    title: "Submit an expense",
+    href: "#",
+    iconForeground: "text-rose-700",
+    iconBackground: "bg-rose-50",
+    description: "tesdfasdasd"
+  },
+  {
+    title: "Training",
+    href: "#",
+    iconForeground: "text-indigo-700",
+    iconBackground: "bg-indigo-50",
+    description: "tesdfasdasd"
+  }, -->
   
 ## Project Impact
 

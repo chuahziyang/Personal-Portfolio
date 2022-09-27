@@ -1,99 +1,67 @@
-<!-- This example requires Tailwind CSS v2.0+ -->
+<!--
+  This example requires Tailwind CSS v2.0+ 
+  
+  This example requires some changes to your config:
+  
+  ```
+  // tailwind.config.js
+  const colors = require('tailwindcss/colors')
+  
+  module.exports = {
+    // ...
+    theme: {
+      extend: {
+        colors: {
+          sky: colors.sky,
+          teal: colors.teal,
+          rose: colors.rose,
+        },
+      },
+    },
+  }
+  ```
+-->
 <template>
-  <div class="flow-root">
-    <ul role="list" class="-mb-8">
-      <li v-for="(event, eventIdx) in timeline" :key="event.id">
-        <div class="relative pb-8">
-          <span
-            v-if="eventIdx !== timeline.length - 1"
-            class="absolute top-4 left-4 -ml-px h-full w-0.5 bg-gray-200"
-            aria-hidden="true"
-          />
-          <div class="relative flex space-x-3">
-            <div>
-              <span
-                :class="[
-                  event.iconBackground,
-                  'h-8 w-8 rounded-full flex items-center justify-center ring-8 ring-white',
-                ]"
-              >
-                <component
-                  :is="event.icon"
-                  class="h-5 w-5 text-white"
-                  aria-hidden="true"
-                />
-              </span>
-            </div>
-            <div class="min-w-0 flex-1 pt-1.5 flex justify-between space-x-4">
-              <div>
-                <p class="text-sm text-gray-500">
-                  {{ event.content }}
-                  <a :href="event.href" class="font-medium text-gray-900">{{
-                    event.target
-                  }}</a>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </li>
-    </ul>
-  </div>
+  <FeatureList :actions="actions"> </FeatureList>
 </template>
 
-<script>
-const timeline = [
+<script setup>
+const actions = [
   {
-    id: 1,
-    content: "Applied to",
-    target: "Front End Developer",
+    title: "Request time off",
     href: "#",
-    date: "Sep 20",
-    datetime: "2020-09-20",
-    iconBackground: "bg-gray-400",
+    iconForeground: "text-teal-700",
+    iconBackground: "bg-teal-50",
   },
   {
-    id: 2,
-    content: "Advanced to phone screening by",
-    target: "Bethany Blake",
+    title: "Benefits",
     href: "#",
-    date: "Sep 22",
-    datetime: "2020-09-22",
-    iconBackground: "bg-blue-500",
+    iconForeground: "text-purple-700",
+    iconBackground: "bg-purple-50",
   },
   {
-    id: 3,
-    content: "Completed phone screening with",
-    target: "Martha Gardner",
+    title: "Schedule a one-on-one",
     href: "#",
-    date: "Sep 28",
-    datetime: "2020-09-28",
-    iconBackground: "bg-green-500",
+    iconForeground: "text-sky-700",
+    iconBackground: "bg-sky-50",
   },
   {
-    id: 4,
-    content: "Advanced to interview by",
-    target: "Bethany Blake",
+    title: "Payroll",
     href: "#",
-    date: "Sep 30",
-    datetime: "2020-09-30",
-    iconBackground: "bg-blue-500",
+    iconForeground: "text-yellow-700",
+    iconBackground: "bg-yellow-50",
   },
   {
-    id: 5,
-    content: "Completed interview with",
-    target: "Katherine Snyder",
+    title: "Submit an expense",
     href: "#",
-    date: "Oct 4",
-    datetime: "2020-10-04",
-    iconBackground: "bg-green-500",
+    iconForeground: "text-rose-700",
+    iconBackground: "bg-rose-50",
+  },
+  {
+    title: "Training",
+    href: "#",
+    iconForeground: "text-indigo-700",
+    iconBackground: "bg-indigo-50",
   },
 ];
-export default {
-  setup() {
-    return {
-      timeline,
-    };
-  },
-};
 </script>

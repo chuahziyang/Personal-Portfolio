@@ -16,6 +16,54 @@ stack: [
 
 
 ## Features
+::feature-list
+---
+actions: [
+  {
+    title: "QR Code Scanning",
+    href: "#",
+    iconForeground: "text-teal-700",
+    iconBackground: "bg-teal-50",
+    description: "asdasd",
+  },
+  {
+    title: "Benefits",
+    href: "#",
+    iconForeground: "text-purple-700",
+    iconBackground: "bg-purple-50",
+    description: "asdasd",
+  },
+  {
+    title: "Schedule a one-on-one",
+    href: "#",
+    iconForeground: "text-sky-700",
+    iconBackground: "bg-sky-50",
+    description: "asdasd",
+  },
+  {
+    title: "Payroll",
+    href: "#",
+    iconForeground: "text-yellow-700",
+    iconBackground: "bg-yellow-50",
+    description: "asdasd",
+  },
+  {
+    title: "Submit an expense",
+    href: "#",
+    iconForeground: "text-rose-700",
+    iconBackground: "bg-rose-50",
+    description: "asdasd",
+  },
+  {
+    title: "Training",
+    href: "#",
+    iconForeground: "text-indigo-700",
+    iconBackground: "bg-indigo-50",
+    description: "asdasd",
+  },
+]
+---
+::
 
 - Fully Digital Check-In System
 - Integrated QR Code Functionality
@@ -32,7 +80,7 @@ stack: [
 
 ::image-carousell
 ---
-links: ["emob-1","emob-2","emob-3"]
+links: ["emob-1",emob-2",emob-3"]
 ---
 
 <!-- <ImageCarousell :links="['emob-1','emob-2','emob-3']"></ImageCarousell> -->
