@@ -22,30 +22,18 @@ stack: [
 actions: [
   {
     title: "Digital MTRAC Forms",
-    href: "#",
-    iconForeground: "text-teal-700",
-    iconBackground: "bg-teal-50",
     description: "Digital MTRAC+ Forms to be filled in before each movement. Risk for the movement will be calculated and recorded."
   },
   {
     title: "Counter-Signing",
-    href: "#",
-    iconForeground: "text-purple-700",
-    iconBackground: "bg-purple-50",
     description: "Counter-Signing link will be generated after MTRAC+ Form is completed. Commanders will have to approve the movement via the Counter-Sign Link within 24 Hours."
   },
   {
     title: "Driving Currency",
-    href: "#",
-    iconForeground: "text-sky-700",
-    iconBackground: "bg-sky-50",
     description: "Drivers will have to renew their driving currency every 2 weeks by completing a JIT Test on the MTRAC+ Platform. "
   },
   {
     title: "Offline Mode",
-    href: "#",
-    iconForeground: "text-yellow-700",
-    iconBackground: "bg-yellow-50",
     description: "Offline mode allows users to queue a form submission while disconnected from the internet. The app will automatically submit the form when the user reconnects to internet."
   },
 ]
