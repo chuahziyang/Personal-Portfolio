@@ -10,7 +10,8 @@ stack: [
     {name: "TailwindCSS",colour: "blue",},
     {name: "Prisma",colour: "black",},
     {name: "Postgres",colour: "black",},
-    {name: "Heroku",colour: "orange",}]
+    {name: "Heroku",colour: "orange",},
+    {name: "Google Sheet API",colour: "green",}]
 ---
 ::
 

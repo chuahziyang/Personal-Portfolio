@@ -14,7 +14,7 @@ function getColor(stack: stack) {
     case "blue":
       return "bg-blue-500";
     case "green":
-      return "bg-green-500";
+      return "bg-green-600";
     case "black":
       return "bg-black";
     case "orange":
