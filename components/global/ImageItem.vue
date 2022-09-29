@@ -1,5 +1,5 @@
 <template>
-  <img class="object-scale-down h-full" :src="images[srcimg]" :alt="alt" />
+  <img class="object-scale-down" :src="images[srcimg]" :alt="alt" />
 </template>
 
 <script setup>

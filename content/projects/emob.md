@@ -68,7 +68,7 @@ stats: [
 ### Team of 3
 
 
-::div{.h-[30rem].flex}
+::div{.h-[30rem]}
 :::image-carousell{.bg-white.dark:bg-thegray}
 ---
 links: ["emob-1","emob-2","emob-3"]
