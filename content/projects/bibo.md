@@ -6,7 +6,9 @@
 ---
 stack: [
     {name: "Vue.Js",colour: "green",},
+    {name: "Google Sheet API",colour: "green",},
     {name: "Vuetify",colour: "blue",},
+    {name: "Telegram Bot",colour: "blue",},
     {name: "Firestore",colour: "orange",},
     {name: "Heroku",colour: "orange",}]
 ---

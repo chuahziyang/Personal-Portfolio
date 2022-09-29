@@ -12,13 +12,13 @@ function getColor(stack: stack) {
   // return "bg-green-500";
   switch (stack.colour) {
     case "blue":
-      return "bg-blue-500";
+      return "bg-blue-600";
     case "green":
       return "bg-green-600";
     case "black":
       return "bg-black";
     case "orange":
-      return "bg-orange-500";
+      return "bg-orange-600";
   }
 }
 //eslint-disable-next-line
