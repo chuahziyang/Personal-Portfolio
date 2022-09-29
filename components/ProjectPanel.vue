@@ -14,8 +14,10 @@ console.log(props);
 
 <template>
   <div class="flex-col flex">
-    <div class="basis-3/5">{{ image }}</div>
-    <div class="flex flex-col pl-6 pr-3 py-2 justify-between basis-2/5">
+    <div class="h-48 flex bg-white">
+      <img class="object-scale-down" :src="image" alt="asd" />
+    </div>
+    <div class="flex flex-col pl-6 pr-3 py-2 justify-between h-32">
       <h5 class="dark:text-white text-2xl font-bold leading-8 tracking-tight">
         {{ name }}
       </h5>

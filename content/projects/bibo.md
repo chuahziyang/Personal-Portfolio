@@ -30,7 +30,7 @@ actions: [
   },
   {
     title: "Exports",
-    description: "Daily Parade State is exported via Google Sheet API to google sheets. This data is then store for audit purposes.",
+    description: "Daily Parade State is exported via Google Sheet API to google sheets. This data is then stored for audit purposes.",
   },
   
 ]
@@ -62,7 +62,7 @@ stats: [
 
 ::image-carousell
 ---
-links: ["bibo","bibo1","bibo2","bibo3"]
+links: ["bibo4","bibo","bibo1","bibo2","bibo3"]
 ---
 
 

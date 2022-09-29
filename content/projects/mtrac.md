@@ -23,15 +23,15 @@ stack: [
 stats: [
     {
         name: "Transport Operators served",
-        stat: "20k",
+        stat: "~20k",
     },
     {
         name: "MTRAC+ Recorded",
-        stat: "200k",
+        stat: "~200k",
     },
     {
         name: "Project Reach",
-        stat: "army-wide",
+        stat: "Army-wide",
     }
 
 ]
@@ -80,7 +80,7 @@ actions: [
 
 ::image-carousell
 ---
-links: ["mtrac","mtrac1","mtrac2","mtrac3"]
+links: ["mtrac5","mtrac","mtrac1","mtrac2","mtrac3"]
 ---
 ::
 

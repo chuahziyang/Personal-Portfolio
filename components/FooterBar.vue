@@ -5,7 +5,7 @@ const year = new Date().getFullYear();
 </script>
 
 <template>
-  <div>
+  <div class="mt-6">
     <social-contacts></social-contacts>
     <div class="flex justify-center font-light">
       <span class="pb-2 mt-4 text-xs font-light dark:text-gray-200">
