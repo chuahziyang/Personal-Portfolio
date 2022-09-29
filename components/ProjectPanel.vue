@@ -10,6 +10,8 @@ const props = defineProps<Props>();
 const { name, linktoinfo, linktoproject, image, description } = props.project;
 
 console.log(props);
+
+const isDarkMode = useDarkMode();
 </script>
 
 <template>
@@ -34,7 +36,8 @@ console.log(props);
         </a>
         <a :href="linktoproject" target="_">
           <span>
-            <fa :icon="[`fa`, `link`]" color="blue"> </fa>
+            <fa v-if="!isDarkMode" :icon="[`fa`, `link`]" color="blue"> </fa>
+            <fa v-else :icon="[`fa`, `link`]" color="DarkCyan"> </fa>
           </span>
         </a>
       </div>

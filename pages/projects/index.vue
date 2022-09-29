@@ -15,7 +15,7 @@
         <hr class="border-grey mb-3" />
         <div class="grow grid gap-x-8 gap-y-6 grid-cols-1 sm:grid-cols-2">
           <div
-            class="border-2 h-80 w-100"
+            class="border-2 h-80 w-100 dark:border-gray-600"
             v-for="project in projects"
             :key="project.name"
           >
