@@ -67,7 +67,7 @@ stats: [
 ## Project Team Size
 ### Team of 3
 
-::image-carousell
+::image-carousell{.h-[120]}
 ---
 links: ["emob-1","emob-2","emob-3"]
 ---

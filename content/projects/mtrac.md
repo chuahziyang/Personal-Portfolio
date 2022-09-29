@@ -78,9 +78,10 @@ actions: [
 
 ## Screenshots
 
-::image-carousell
+::div{.h-[30rem].w-full}
+:::image-carousell
 ---
 links: ["mtrac5","mtrac","mtrac1","mtrac2","mtrac3"]
 ---
+:::
 ::
-

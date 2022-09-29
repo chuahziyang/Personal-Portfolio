@@ -92,32 +92,32 @@ const projects: project[] = [
     ],
   },
 
-  {
-    name: "Ippt App",
-    linktoproject: "https://emob.ternary.digital",
-    description:
-      "An application created to streamline the process of recording IPPT results digitally.",
-    linktoinfo: "bibo",
-    image: "",
-    stack: [
-      {
-        name: "React",
-        colour: "blue",
-      },
-      {
-        name: "Vue.js",
-        colour: "green",
-      },
-      {
-        name: "TailwindCSS",
-        colour: "blue",
-      },
-      {
-        name: "Express",
-        colour: "gray",
-      },
-    ],
-  },
+  // {
+  //   name: "Ippt App",
+  //   linktoproject: "https://emob.ternary.digital",
+  //   description:
+  //     "An application created to streamline the process of recording IPPT results digitally.",
+  //   linktoinfo: "bibo",
+  //   image: "",
+  //   stack: [
+  //     {
+  //       name: "React",
+  //       colour: "blue",
+  //     },
+  //     {
+  //       name: "Vue.js",
+  //       colour: "green",
+  //     },
+  //     {
+  //       name: "TailwindCSS",
+  //       colour: "blue",
+  //     },
+  //     {
+  //       name: "Express",
+  //       colour: "gray",
+  //     },
+  //   ],
+  // },
 ];
 
 export { projects, project };
