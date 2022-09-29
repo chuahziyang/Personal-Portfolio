@@ -23,7 +23,7 @@
 -->
 <template>
   <!-- <div class="h-[30rem] bg-green-200">asdasd</div> -->
-  <div class="h-[30rem] bg-green-200">
+  <div class="h-[36rem] bg-green-200 flex">
     <ImageCarousell :links="links"></ImageCarousell>
   </div>
 </template>

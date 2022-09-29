@@ -1,5 +1,7 @@
 <template>
-  <div class="w-full h-full bg-black flex flex-row overflow-x-auto gap-x-1">
+  <div
+    class="w-full h-full bg-white dark:bg-thegray flex flex-row overflow-x-auto gap-x-1"
+  >
     <ImageItem
       v-for="image in props.links"
       :srcimg="image"

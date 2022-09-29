@@ -67,9 +67,11 @@ stats: [
 ## Project Team Size
 ### Team of 3
 
-::image-carousell{.h-[120]}
+
+::div{.h-[30rem].flex}
+:::image-carousell{.bg-white.dark:bg-thegray}
 ---
 links: ["emob-1","emob-2","emob-3"]
 ---
-
-<!-- <ImageCarousell :links="['emob-1','emob-2','emob-3']"></ImageCarousell> -->
+:::
+::

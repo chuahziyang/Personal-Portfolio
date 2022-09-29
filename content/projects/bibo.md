@@ -61,10 +61,11 @@ stats: [
 ---
 ::
 
-
-::image-carousell
+::div{.h-[36rem].flex}
+:::image-carousell
 ---
 links: ["bibo4","bibo","bibo1","bibo2","bibo3"]
 ---
-
+:::
+::
 

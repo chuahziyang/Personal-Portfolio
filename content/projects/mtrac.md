@@ -78,7 +78,7 @@ actions: [
 
 ## Screenshots
 
-::div{.h-[30rem].w-full}
+::div{.h-[36rem].flex.bg-green-200}
 :::image-carousell
 ---
 links: ["mtrac5","mtrac","mtrac1","mtrac2","mtrac3"]
