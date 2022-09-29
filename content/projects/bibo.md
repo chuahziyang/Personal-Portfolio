@@ -1,4 +1,4 @@
-### Bibo-App app is an app to streamline the proccess of 
+### Bibo-App app is an app to streamline the proccess of accounting for strength across nodes.
 
 
 ## Stack
@@ -13,10 +13,52 @@ stack: [
 ::
 
 ## Features
+::feature-list
+---
+actions: [
+  {
+    title: "Attendance Taking",
+    description: "Clerks will take parade state for their respective nodes. Node admins can also leave ART Status as well as comments which will be exported.",
+  },
+  {
+    title: "Live Data Syncing",
+    description: "Data from the app is live-synced from firestore, allowing multiple nodes to use the app at the same time.",
+  },
+  {
+    title: "On-Demand Parade State Reports",
+    description: "Data from the app can be polled via a telegram bot for on-demand parade state reports. The bot can also be used for various adminstrative functions eg. Adding/Deleting Users",
+  },
+  {
+    title: "Exports",
+    description: "Daily Parade State is exported via Google Sheet API to google sheets. This data is then store for audit purposes.",
+  },
+  
+]
+---
+::
+
 
 ## Project Impact
 
-- Project has been used from Dec 2021 to track the daily parade state of about 300 servicemen.
+::stats-list
+---
+stats: [
+    {
+        name: "Users served Daily",
+        stat: "300",
+    },
+    {
+        name: "",
+        stat: "~3k",
+    },
+    {
+        name: "Service Level Awards",
+        stat: "2.5k SGD",
+    }
+]
+---
+::
+
 
 ::image-carousell
 ---

@@ -16,6 +16,27 @@ stack: [
 ::
 
 
+## Project Impact
+
+::stats-list
+---
+stats: [
+    {
+        name: "Transport Operators served",
+        stat: "20k",
+    },
+    {
+        name: "MTRAC+ Recorded",
+        stat: "200k",
+    },
+    {
+        name: "Project Reach",
+        stat: "army-wide",
+    }
+
+]
+---
+::
 ## Features
 ::feature-list
 ---
@@ -54,12 +75,8 @@ actions: [
     description: "tesdfasdasd"
   }, -->
   
-## Project Impact
 
-- Project was pushed out to the entire Singapore Army, and currently serves 20k transport operators
-- Over 200k MTRAC’s currently recorded.
-- Project earned a service level award (2.5K SGD)
-
+## Screenshots
 
 ::image-carousell
 ---

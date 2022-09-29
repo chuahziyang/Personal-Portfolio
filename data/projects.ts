@@ -91,32 +91,7 @@ const projects: project[] = [
       },
     ],
   },
-  {
-    name: "Bibo Bot",
-    linktoproject: "https://emob.ternary.digital",
-    description:
-      "Bibo Bot is a Telegram Bot Created as an extension of the Bibo App to create on-demand reports.",
-    linktoinfo: "bibo",
-    image: "",
-    stack: [
-      {
-        name: "React",
-        colour: "blue",
-      },
-      {
-        name: "Vue.js",
-        colour: "green",
-      },
-      {
-        name: "TailwindCSS",
-        colour: "blue",
-      },
-      {
-        name: "Express",
-        colour: "gray",
-      },
-    ],
-  },
+
   {
     name: "Ippt App",
     linktoproject: "https://emob.ternary.digital",

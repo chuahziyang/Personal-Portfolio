@@ -1,4 +1,5 @@
-### Emob is a system created to track the status of servicemen as they go through the mob manning process. System admins will be able to mark servicemen status via a QR code as they progress through the relevant stations. Servicemen will have to complete all relevant stations and show their station status page as they leave the camp to ensure all stations have been completed
+
+### Emob is a Mob-Manning Management system designed for commanders to be able to track users as they go through the mob-manning proccess. 
 
 ## Stack
 ::stack-bar
@@ -25,7 +26,7 @@ actions: [
   },
   {
     title: "Dashboards",
-    description: "Admins can track the percentage completion of each station via their dashboard.",
+    description: "Admins can track the percentage completion of each station via their dashboard. Users will have to show their completed dashboard before they leave camp.",
   },
   {
     title: "Import",
@@ -33,15 +34,7 @@ actions: [
   },
   {
     title: "Export",
-    description: "System Exports to a google sheet post mob manning.",
-  },
-  {
-    title: "Submit an expense",
-    description: "asdasd",
-  },
-  {
-    title: "Training",
-    description: "asdasd",
+    description: "System uses the Google Sheet API to export to a google sheet post mob-manning for post mob-manning storage and for audit.",
   },
 ]
 ---
@@ -51,10 +44,24 @@ actions: [
 ## Project Impact
 
 ::stats-list
+---
+stats: [
+    {
+        name: "Mob Mannings per Month",
+        stat: "~1",
+    },
+    {
+        name: "Users per Mob Manning",
+        stat: "~3k",
+    },
+{
+        name: "Service Level Awards",
+        stat: "2.5k SGD",
+    }
+]
+---
 ::
 
-- Project serves about 1-2 Mob Mannings per month, with about 2k users served each time.
-- Project earned a service level award (2.5K SGD)
 
 ## Project Team Size
 ### Team of 3
