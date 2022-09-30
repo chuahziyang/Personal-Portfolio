@@ -1,5 +1,7 @@
 <template>
-  <header class="flex items-center justify-center sm:justify-end py-8">
+  <header
+    class="sm:mr-5 lg:mr-10 xl:mr-20 2xl:mr-40 h-20 flex items-center justify-center sm:justify-end py-6"
+  >
     <div class="flex flex-row sm:block py-2">
       <a
         v-for="link in links"

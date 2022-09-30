@@ -3,10 +3,8 @@
     <div
       class="flex h-full min-h-screen flex-col bg-white dark:bg-thegray justify-between"
     >
-      <div class="mx-20">
-        <side-bar></side-bar>
-      </div>
-      <div class="flex mx-auto grow min-w-xl max-w-3xl w-full">
+      <side-bar></side-bar>
+      <div class="flex mx-10 sm:mx-auto grow max-w-3xl w-full">
         <slot></slot>
       </div>
       <footer-bar></footer-bar>
