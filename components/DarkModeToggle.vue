@@ -14,9 +14,15 @@ watchEffect(() => {
 </script>
 
 <template>
-  <button @click="toggleDark()">
-    <fa v-if="!isDark" :icon="[`fas`, `moon`]" size="xl" target="_blank"> </fa>
-    <fa v-else color="white" :icon="[`fas`, `sun`]" size="xl" target="_blank">
+  <button class="w-4" @click="toggleDark()">
+    <fa
+      v-if="isDarkValue"
+      color="white"
+      :icon="[`fas`, `sun`]"
+      size="xl"
+      target="_blank"
+    >
     </fa>
+    <fa v-else :icon="[`fas`, `moon`]" size="xl" target="_blank"> </fa>
   </button>
 </template>
