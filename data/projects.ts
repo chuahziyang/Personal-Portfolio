@@ -17,7 +17,7 @@ const projects: project[] = [
     name: "MTRAC+",
     linktoproject: "https://mtrac.ternary.digital",
     linktoinfo: "mtrac",
-    image: "assets/mtrac/mtraccover.jpg",
+    image: "mtraccover",
     description:
       "MTRAC+ is an all in one platform for Transport Operators to manage their Driving Currency, fill MTRAC+ Forms, and allow Commanders to counter-sign MTRAC+ Forms.",
     stack: [
@@ -43,9 +43,9 @@ const projects: project[] = [
     name: "EMOB+",
     description:
       "EMOB+ is a system developed to streamline the process of Mob Manning by allowing commanders to mark servicemen via a QR Code.",
-    linktoproject: "https://emob.ternary.digital",
+    linktoproject: "https://e-mob.herokuapp.com/",
     linktoinfo: "emob",
-    image: "assets/emob/emobcover.jpg",
+    image: "emobcover",
     stack: [
       {
         name: "React",
@@ -71,7 +71,7 @@ const projects: project[] = [
     description:
       "Bibo app is a web app developed to improve the process of accounting for strength daily",
     linktoinfo: "bibo",
-    image: "assets/bibo/bibocover.jpg",
+    image: "bibocover",
     stack: [
       {
         name: "React",
