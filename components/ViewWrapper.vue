@@ -1,7 +1,7 @@
 <template>
   <div>
     <div
-      class="sm:max-h-screen sm:max-w-screen flex h-full min-h-screen flex-col bg-white dark:bg-thegray justify-between"
+      class="sm:max-h-full sm:max-w-screen flex min-h-screen flex-col bg-white dark:bg-thegray justify-between"
     >
       <side-bar class=""></side-bar>
       <div class="flex mx-10 sm:mx-auto grow max-w-3xl md:w-screen">
