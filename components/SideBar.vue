@@ -7,7 +7,7 @@
         v-for="link in links"
         :key="link"
         :href="link.link"
-        class="font-medium text-gray-900 dark:text-gray-100 p-4"
+        class="font-medium text-gray-900 dark:text-gray-100 p-2 md:p-4"
       >
         {{ link.name }}
       </a>

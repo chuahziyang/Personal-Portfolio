@@ -40,7 +40,7 @@ actions: [
 ::
 
 
-## Project Impact
+<!-- ## Project Impact
 
 ::stats-list
 ---
@@ -59,7 +59,7 @@ stats: [
     }
 ]
 ---
-::
+:: -->
 
 ::div{.h-[36rem].flex}
 :::image-carousell
