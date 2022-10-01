@@ -1,4 +1,4 @@
-### Bibo-App app is an app to streamline the proccess of accounting for strength across nodes.
+### Bibo-App app is an app to streamline the proccess of accounting for strength across nodes. There is also a Telegram Bot attached to enable the generation of on-demand parade state reports.
 
 
 ## Stack
@@ -19,8 +19,8 @@ stack: [
 ---
 actions: [
   {
-    title: "Attendance Taking",
-    description: "Clerks will take parade state for their respective nodes. Node admins can also leave ART Status as well as comments which will be exported.",
+    title: "Parade State",
+    description: "Clerks will take parade state for their respective nodes. Node admins can also leave ART Status as well as comments which will be exported daily.",
   },
   {
     title: "Live Data Syncing",
@@ -40,7 +40,7 @@ actions: [
 ::
 
 
-<!-- ## Project Impact
+## Project Impact
 
 ::stats-list
 ---
@@ -49,18 +49,11 @@ stats: [
         name: "Users served Daily",
         stat: "300",
     },
-    {
-        name: "",
-        stat: "~3k",
-    },
-    {
-        name: "Service Level Awards",
-        stat: "2.5k SGD",
-    }
 ]
 ---
-:: -->
+::
 
+## Screenshots
 ::div{.h-[36rem].flex}
 :::image-carousell
 ---
