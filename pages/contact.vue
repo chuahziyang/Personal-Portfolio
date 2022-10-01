@@ -14,7 +14,6 @@ const schema = yup.object({
 });
 
 async function test(values) {
-  alert(JSON.stringify(values));
   const { name, company, email, comment } = values;
   const success = await useContact({
     content: comment,
@@ -25,6 +24,10 @@ async function test(values) {
 
   isSubmitted.value = true;
   isSuccess.value = success;
+
+  if (success) {
+    window.scrollTo(0, 0);
+  }
 }
 
 function required(value) {
