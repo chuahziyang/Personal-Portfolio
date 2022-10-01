@@ -1,6 +1,5 @@
 <template>
   <div>
-    <top-banner></top-banner>
     <view-wrapper>
       <!-- <div class="bg-red-400 text-gray-100 font-medium mb-base">
         <div
