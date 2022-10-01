@@ -5,7 +5,6 @@ import resumelink from "@/data/resume";
 
 <template>
   <div>
-    <top-banner></top-banner>
     <view-wrapper>
       <div>
         <h1>About</h1>

@@ -38,7 +38,6 @@ function required(value) {
 
 <template>
   <div>
-    <top-banner></top-banner>
     <view-wrapper>
       <Form class="flex-1" :validation-schema="schema" @submit="test">
         <div class="overflow-hidden shadow sm:rounded-md">
