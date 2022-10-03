@@ -3,7 +3,6 @@ interface project {
   linktoproject: string;
   linktoinfo: string;
   image: string;
-  stack: stack[];
   description: string;
 }
 
@@ -20,24 +19,6 @@ const projects: project[] = [
     image: "mtraccover",
     description:
       "MTRAC+ is an all in one platform for Transport Operators to manage their Driving Currency, fill MTRAC+ Forms, and allow Commanders to counter-sign MTRAC+ Forms.",
-    stack: [
-      {
-        name: "React",
-        colour: "blue",
-      },
-      {
-        name: "Vue.js",
-        colour: "green",
-      },
-      {
-        name: "TailwindCSS",
-        colour: "blue",
-      },
-      {
-        name: "Express",
-        colour: "black",
-      },
-    ],
   },
   {
     name: "EMOB+",
@@ -46,24 +27,6 @@ const projects: project[] = [
     linktoproject: "https://e-mob.herokuapp.com/",
     linktoinfo: "emob",
     image: "emobcover",
-    stack: [
-      {
-        name: "React",
-        colour: "blue",
-      },
-      {
-        name: "Vue.js",
-        colour: "green",
-      },
-      {
-        name: "TailwindCSS",
-        colour: "blue",
-      },
-      {
-        name: "Express",
-        colour: "gray",
-      },
-    ],
   },
   {
     name: "Bibo App",
@@ -72,24 +35,20 @@ const projects: project[] = [
       "Bibo app is a web app developed to improve the process of accounting for strength daily",
     linktoinfo: "bibo",
     image: "bibocover",
-    stack: [
-      {
-        name: "React",
-        colour: "blue",
-      },
-      {
-        name: "Vue.js",
-        colour: "green",
-      },
-      {
-        name: "TailwindCSS",
-        colour: "blue",
-      },
-      {
-        name: "Express",
-        colour: "gray",
-      },
-    ],
+  },
+  {
+    name: "Resource Management app",
+    linktoproject: "https://emob.ternary.digital",
+    description: "TODO LALALA",
+    linktoinfo: "resource-management-app",
+    image: "bibocover",
+  },
+  {
+    name: "Checklist App",
+    linktoproject: "https://emob.ternary.digital",
+    description: "TODO LALALA",
+    linktoinfo: "checklist",
+    image: "bibocover",
   },
 
   // {
