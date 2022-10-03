@@ -7,7 +7,8 @@ interface Props {
 }
 
 const props = defineProps<Props>();
-const { name, linktoinfo, linktoproject, image, description } = props.project;
+const { workinglink, name, linktoinfo, linktoproject, image, description } =
+  props.project;
 
 console.log(props);
 
@@ -34,7 +35,7 @@ const isDarkMode = useDarkMode();
             Learn more →
           </h6>
         </a>
-        <a :href="linktoproject" target="_">
+        <a v-if="workinglink" :href="linktoproject" target="_">
           <span>
             <fa v-if="!isDarkMode" :icon="[`fa`, `link`]" color="blue"> </fa>
             <fa v-else :icon="[`fa`, `link`]" color="DarkCyan"> </fa>
