@@ -21,6 +21,7 @@
     "@vueuse/core": "^9.1.1",
     "dotenv": "^16.0.2",
     "mailslurp-client": "^15.13.3",
+    "nodemailer": "^6.8.0",
     "vee-validate": "^4.6.7",
     "vue-rough-notation": "^1.0.4",
     "yup": "^0.32.11"

@@ -19,9 +19,7 @@ export default defineNuxtConfig({
   },
   css: ["@fortawesome/fontawesome-svg-core/styles.css"],
   runtimeConfig: {
-    public: {
-      slurpApi: "asd",
-      email: "asd",
-    },
+    email: "czyang2002@gmail.com",
+    pass: "",
   },
 });
