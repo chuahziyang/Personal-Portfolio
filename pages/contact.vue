@@ -15,19 +15,19 @@ const schema = yup.object({
 
 async function test(values) {
   const { name, company, email, comment } = values;
-  const success = await useContact({
+  const success = await useContacts({
     content: comment,
     name,
     email,
     company,
   });
 
+  console.log(success);
+
   isSubmitted.value = true;
   isSuccess.value = success;
 
-  if (success) {
-    window.scrollTo(0, 0);
-  }
+  window.scrollTo(0, 0);
 }
 
 function required(value) {

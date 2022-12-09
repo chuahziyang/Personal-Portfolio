@@ -15,5 +15,5 @@ export const useContacts = async (contact: Contact) => {
     },
   });
 
-  return status;
+  return !!status;
 };
