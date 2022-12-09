@@ -12,7 +12,7 @@ export default defineEventHandler(async (event) => {
       secure: true, // use SSL
       auth: {
         user: config.email,
-        pass: "asdas",
+        pass: config.pass,
       },
     });
 
