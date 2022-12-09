@@ -2,7 +2,9 @@ import nodemailer from "nodemailer";
 
 const config = useRuntimeConfig();
 
-export default defineEventHandler((event) => {
+export default defineEventHandler(async (event) => {
+  const { subject, text, html } = useQuery(event);
+
   let transporter = nodemailer.createTransport({
     host: "smtp.gmail.com",
     port: 465,
@@ -14,27 +16,27 @@ export default defineEventHandler((event) => {
   });
 
   // Define the email details
-  const content = {
-    subject: "Test Subject",
-    text: "asdasdasdasdasd",
-    html: "<p>HTML version of the email body</p>",
-  };
 
   const mailOptions = {
     from: config.email,
     to: config.email,
   };
 
-  //combine content and mailoptions
   const options = {
-    ...content,
+    subject,
+    text,
+    html,
     ...mailOptions,
   };
 
-  transporter.sendMail(options, (error, info) => {
-    if (error) {
-      return console.log(error);
-    }
-    console.log("Message sent: %s", info.messageId);
-  });
+  console.log(options);
+
+  try {
+    const info = await transporter.sendMail(options);
+    console.log(info + "asd");
+    return true;
+  } catch (error) {
+    console.log(error + "asd");
+    return false;
+  }
 });

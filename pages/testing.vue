@@ -26,7 +26,10 @@
 </template>
 
 <script setup>
-const { data } = await useFetch("/api/email");
-
-console.log(data.value);
+const { data } = await useContacts({
+  content: "Testing",
+  email: "czyang2002@gmail.com",
+  name: "God himself",
+  company: "Ro and Co",
+});
 </script>
