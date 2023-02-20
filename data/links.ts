@@ -12,6 +12,10 @@ const links: link[] = [
     link: "/about",
   },
   {
+    name: "Timeline",
+    link: "/timeline",
+  },
+  {
     name: "Contact me",
     link: "/contact",
   },
