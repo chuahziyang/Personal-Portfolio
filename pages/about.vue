@@ -10,15 +10,32 @@ import resumelink from "@/data/resume";
         <h1>About</h1>
         <hr class="border-grey mb-3" />
         <h4 class="">
-          Hi! I'm an aspiring software engineer with 2 years of web development
-          experience. I worked as the head of NSFC Projects Team, an SAF
-          digitalisation effort in my NS journey. In the 2 years I was in
-          Projects Team, I had the opportunity to work on army wide projects,
-          such as the MTRAC+ platform, where we currently serve 20k Transport
-          Operators(Drivers) in their day to day operations. I am a self
-          directed learner, whos self-taught web development. Do checkout the
-          projects tab for more information about my projects and the impact I
-          made in the SAF.
+          A software engineer who aims to innovate and inspire
+          <br />
+          <br />
+          Previously, I worked as a SWE Intern at
+          <a
+            class="text-blue-500 underline"
+            href="https://thesoftwarepractice.com/"
+            >The Software Practice</a
+          >
+          where I was a part of the Performance Team for the Networked Trade
+          Platform, a government project offering one-stop trade and logistics
+          ecosystem which supports digitalisation efforts and connects players
+          across the trade value chain - in Singapore and abroad. I was the sole
+          creator of our HTTP performance tests suite.
+          <br />
+          <br />
+          I also worked as a the head of NSFC Project Team as part of the
+          <a
+            class="text-blue-500 underline"
+            href="https://www.mindef.gov.sg/web/portal/mindef/home"
+          >
+            Singapore Armed Forces</a
+          >
+          digitalization incentive. During my time as the Head of NSFC, we
+          created various applications that are currently being used army-wide
+          (check the projects tab).
         </h4>
         <div class="my-10">
           <a :href="resumelink" target="_" class="my-10 dark:text-gray-200">
