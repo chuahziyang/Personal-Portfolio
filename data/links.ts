@@ -1,7 +1,13 @@
+import resumelink from "./resume";
+
 const links: link[] = [
   {
     name: "Home",
     link: "/",
+  },
+  {
+    name: "Resume",
+    link: resumelink,
   },
   {
     name: "Projects",
